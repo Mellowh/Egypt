@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+        background-color: wheat;
+        font-family: Arial, sans-serif;
+    
+      
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ff880041;
+    border-style:hidden;
+  }
+section {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+.nav-item {
+    background-color: #000000; 
+    padding: 10px;
+    border-radius: 5px;
+    font-family:fantasy;
+    color: rgb(216, 176, 0);
+  }
+section div {
+    width: 1920px;
+    height: 1080px;
+    display: grid;
+    place-items: center;
+    font-size: 8rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+section div#one {
+    background-image: url('cotent/Ancient\ Egypt\ Black\ and\ White\ Digital\ Art.jpeg');
+}
+
+section div#two {
+    background-image: url('cotent/Eye\ of\ Horus\ Wallpaper\ Digital\ Art.jpeg');
+}
+
+section div#three {
+    background-image: url('cotent/Horus\ Helm\ _\ Stargate\ Rüstung\ Kostüm\ _\ Jaffa\ Cosplay.jpeg');
+}
+section div#four { 
+    background-image: url('cotent/Extraordinary\ In\ Ordinary_\ 30\ Powerful\ Moments\ That\ I\ Captured\ In\ Mundane\ Settings.jpeg');
+}
+section div#five {
+    background-image: url('cotent/GALERİ\ 🌐🔶🔸🌐\ GALLERY.jpeg');
+}
+section div#six {
+    background-image: url('cotent/RARE\ ANCIENT\ EGYPTIAN\ ANTIQUES\ Pharaonic\ Winged\ Statue\ Of\ Isis\ Goddess\ Of\ Love\ \ _\ eBay.jpeg');
+}
+section div#seven {
+    background-image: url('cotent/Nefertiti.jpeg');
+}   
+section div#eight {
+    background-image: url('cotent/Ra_\ The\ Celestial\ Commander\,\ Ruler\ of\ the\ Sunlit\ Realms.jpeg.png');
+}
+
+aside {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+
+    a:hover {
+        background-color: white;
+    }
+}
